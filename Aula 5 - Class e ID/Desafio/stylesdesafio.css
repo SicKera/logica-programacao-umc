@@ -1,0 +1,50 @@
+body{
+    width: 50vw;
+    margin: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.4;
+}
+#titulo1{
+    color: rgb(44, 62, 80);
+    background-color: rgb(236, 240, 241);
+}
+#titulo2{
+    color: rgb(39, 174, 96);
+    background-color: rgb(233, 247, 239);
+    
+}
+#titulo3{
+    color: rgb(243, 156, 18);
+    background-color: rgb(255, 243, 230);
+}
+#titulo4{
+    color: rgb(142, 68, 173);
+    background-color: rgb(245, 230, 245);
+}
+.subs-titulo1{
+    color: rgb(231, 76, 60);
+    background-color: rgb(249, 235, 234);
+}
+.subs-titulo2{
+    color: rgb(39, 174, 96);
+    background-color: rgb(233, 247, 239);
+}
+.subs-titulo3{
+    color: rgb(243, 156, 18);
+    background-color: rgb(255, 243, 230);
+}
+.subs-titulo4{
+    color: rgb(142, 68, 173);
+    background-color: rgb(245, 230, 245);
+}

@@ -1,0 +1,37 @@
+html{
+    background-color: black;
+}
+h1{
+    font-size: 32px;
+    color: sandybrown;
+    background-color: darkgreen;
+}
+h2{
+    font-size: 24px;
+    color: darkolivegreen;
+    background-color: black;
+}
+p{
+    font-size: 14px;
+    color: yellowgreen;
+    background-color: rgb(10, 26, 135);
+}
+#subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background-color: darkmagenta;
+    text-align: end;
+}
+#paragrafo1{
+    text-align:end ;
+    color: gold;
+    text-decoration: dotted;
+}
+#paragrafo2{
+    text-align: center;
+    color: rgb(153, 226, 43);
+}
+#paragrafo3{
+    text-align: left;
+    color: rgb(18, 203, 120);
+}

@@ -1,0 +1,28 @@
+html{
+    background-color: darkblue;
+}
+body{
+    width: 40vw;
+    margin: auto;
+}
+
+h1{
+    color: yellow;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+p{
+    color: darkorange;
+}
+
+.paragrafo{
+    background-color: springgreen;
+}
+
