@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: darkseagreen;
+}
+h1{
+    color: brown;
+}
+#titulo1{
+    text-align: center;
+}
+.pai{
+    width: 50vw;
+    height: 100vw;
+    margin: auto;
+    background-color: floralwhite;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(184, 41, 41);
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 3px solid rgb(4, 246, 40);
+}
+.filho{
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid rgb(9, 9, 9);
+    padding: 50px;
+    margin: 10px;
+}
+#filho1{
+    margin-top: 15px;
+}
+#filho2{
+    border-bottom: 30px;
+}
+#filho3{
+    
+}

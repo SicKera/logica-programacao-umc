@@ -1,0 +1,25 @@
+.box{
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+    background-color: aqua;
+}
+#box1 {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px rgb(144, 143, 143);
+}
+#box2 {
+    box-shadow: 5px 5px 5px 5px rgb(169, 168, 168) inset;
+    border-color: rgb(187, 185, 185);
+    border-style: solid;
+    border-width: 2px;
+}
+#box3 {
+    border-top: 2px solid red;
+    border-left: 3px solid greenyellow;
+    border-right: 5px dashed lightcoral;
+    border-bottom: 8px dashed yellow;
+    border-radius: 5px  10px 15px 20px;
+}
