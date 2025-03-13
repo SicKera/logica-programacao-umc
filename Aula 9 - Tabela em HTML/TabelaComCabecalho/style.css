@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60vw;
+    margin: 30px;
+    padding: 30px;
+}
+
+td, th {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightseagreen;
+}

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 60vw;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+th {
+    background-color: lightgray;
+}
