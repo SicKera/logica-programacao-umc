@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     /* border: 2px solid green; */
-    background-color: #cac9c9;
+    background-color: #f4f4f4;
 }
 main {
     display: block;
@@ -14,23 +15,34 @@ main {
 }
 
 h2 {
-    border: 2px solid purple;
-    padding: 30px;
+    /* border: 2px solid purple; */
+    padding-top: 50px;
     color: brown;
     text-align: center;
 }
 
 .form-container {
-    background-color: darkgray;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0.103px rgb(0, 0, 0);
-    max-width: 400px;
-    margin: 70px auto;
-    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.103);
+    max-width: 40vw;
+    margin: 50px auto;
     /* border: 2px solid red; */
     padding: 20px;
     line-height: 1.3em;
     text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    width: 100%;
+    margin: 5px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .campos {
@@ -42,5 +54,16 @@ h2 {
     /* border: 1px solid black; */
     padding: 15px;
     margin: 15px;
-    text-align: center;
 }
+
+.buttons > button {
+    background-color: rgb(4, 4, 143);
+    color:  white;
+    border: none;
+    border-radius: 10px;
+    width: 48%;
+    cursor: pointer;
+}
+ .buttons > button:hover {
+    background-color: rgb(3, 5, 116);
+ }
