@@ -9,27 +9,29 @@
     function calcularPagamento(){
 
         
-        let formaPagamento = "debito"
-        let valorTotal = 100
+        let formaPagamento = document.querySelector("#formaPagamento").value
+        let valorTotal = parseFloat( document.querySelector("#valorCompra").value)
+        console.log (formaPagamento, valorTotal);
         let valorFinal
+        let resultado = document.querySelector("#resultado")
         
         switch(formaPagamento) {
             case "pix":
                 valorFinal = valorTotal * 0.9
-                console.log(valorFinal)
+                resultado.innerHTML = `Valor final foi de R$ ${valorFinal.toFixed(2)}`
                 break
                 
                 case "debito":
                     valorFinal = valorTotal *0.95
-                    console.log(valorFinal)
+                    resultado.innerHTML = `Valor final foi de R$ ${valorFinal.toFixed(2)}`
                     break
                     
                     case "credito":
-                        console.log(valorFinal)
+                        resultado.innerHTML = `Valor final foi de R$ ${valorTotal.toFixed(2)}`;
                         break
                         
                         default:
-                            console.log("informe o forma de pagamento válida;")
+                            resultado.innerHTML = "informe o forma de pagamento válida";
                             break
                         }
                         
