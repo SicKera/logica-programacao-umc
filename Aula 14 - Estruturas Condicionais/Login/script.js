@@ -9,7 +9,7 @@ let senha = document.querySelector("#senha").value
 let mensagem = document.querySelector("#mensagem")
 
 // console.log(usuario, senha)
-if  (usuario != "airton" || senha !="xboxlive") {
+if  (usuario !="airton" || senha !="xboxlive") {
     mensagem.innerHTML = `Login ou senha incorretos!!!`
 
 }
