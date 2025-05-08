@@ -15,11 +15,13 @@
         <?php
             // echo var_dump($_POST);
 
+            // Capturando os dados inseridos no formulário.
             $nome = $_POST["nome"];
             $sobrenome = $_POST ["sobrenome"];
             $email = $_POST ["email"];
             $senha = $_POST ["senha"];
 
+            // E os apresentando com o "echo".
             echo "<p><strong> O seu nome é: </strong> $nome </p>";
             echo "<p><strong> O seu sobrenome é: </strong> $sobrenome </p>";
             echo "<p><strong> O seu email é: </strong> $email </p>";
