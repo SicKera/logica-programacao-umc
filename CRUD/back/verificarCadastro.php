@@ -16,5 +16,59 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <form action="" method="post">
+                <input type="email" name="email" id="email" placeholder="Digite o E-mail">
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+        <section>
+
+            <?php
+
+                // verificar se o campo email está preenchido
+                if(isset($_POST["email"])){
+
+                    // Exibir as informaçãoes passadas pelo forms
+                    echo var_dump($_POST);
+                
+                    // Salva as informações de email enviada pelo forms
+                    $email = $_POST["email"];
+                    
+                    // Recebe as informações de conexão do DB
+                    include("../conexao/conexao.php");
+
+                    // Query de banco de dados
+                    $sql = "SELECT * FROM  usuarios WHERE email = ?";
+
+                    // Preparar a conexão junto da consulta
+                    $stmt = $conn ->prepare($sql);
+
+                    // Validando se a conexão foi feita com sucesso
+                    if($stmt){
+                        // Troca a informaçõa de e-mail por '?' no $sql
+                        $stmt->bind_param("s", $email);
+                    }
+                    // Executar o comando
+                    $stmt->execute();
+                    $resultado = $stmt->get_result();
+                    echo var_dump($resultado);
+                    
+                    if($resultado->num_rows > 0){
+                        // Se o número de linhas for maior que zero
+                        echo "Usuário já cadastrado";
+                        // Armazenar as informações dele
+                        $row = $resultado->fetch_assoc();
+                        echo var_dump($row);
+                        // Caso o número de linhas for igual a zero
+                    }else{
+                        echo "Usuário inexistente!";
+                    }
+                }
+            ?>
+
+        </section>
+    </main>
 </body>
 </html>
