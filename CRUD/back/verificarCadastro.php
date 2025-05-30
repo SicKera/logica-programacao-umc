@@ -40,7 +40,7 @@
                     include("../conexao/conexao.php");
 
                     // Query de banco de dados
-                    $sql = "SELECT * FROM  usuarios WHERE email = ?";
+                    $sql = "SELECT * FROM  alunos WHERE email = ?";
 
                     // Preparar a conexão junto da consulta
                     $stmt = $conn ->prepare($sql);
